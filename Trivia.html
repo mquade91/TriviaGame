@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html>
 
+    <head>
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Script -->
+        <script src="assets/trivia.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://allfont.net/allfont.css?fonts=jaws-comic-pro-jy">
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="assets/trivia.css">
+        <title>Trivia Game</title>
+    </head>
+
+    <body>
+        <header>
+            <div id="header">
+                <h1>Sharks: How much do you know?</h1>
+            </div>
+        </header>
+        <nav>
+            <div class="section">
+                <div class="results">
+                    <p id="correctAnswers"> Correct Answers : 0
+                    </p>
+                    <p id="incorrectAnswers"> Incorrect Answers : 0
+                    </p>
+                    <p id="noAnswer"> Unanswered: 0
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <button id="startButton">
+            <h2>Click HERE to START</h2>
+            <div id = "display"><h2>Seconds Remaining: 30</h2></div>
+            </button>
+            </div>
+        </nav>
+        <!--Questions and answers for the quiz-->
+        <section>
+            <div class="questions">
+                <div id="q1">
+                    <h4>Around 70% of the Earths surface is covered by oceans</h4>
+                </div>
+                <ul class="answers">
+                    <input type="radio" name="Q1" class="choice" value="1"><label for="q1a" id="1a"></label>
+                    <br/>
+                    <input type="radio" name="Q1" class="choice" value="0"><label for="q1b" id="1b"></label>
+                    <br/>
+                    <input type="radio" name="Q1" class="choice" value="0"><label for="q1c" id="1c"></label>
+                    <br/>
+                    <input type="radio" name="Q1" class="choice" value="0"><label for="q1d" id="1d"></label>
+                    <br/>
+                </ul>
+        </section>
+        <section col-md-6>
+            <div id="q2">
+                <h4>The average depth of the ocean is about 12,100 feet</h4>
+            </div>
+            <ul class="answers">
+                <input type="radio" name="Q2" class="choice" value="1"><label for="q1a" id="2a"></label>
+                <br/>
+                <input type="radio" name="Q2" class="choice" value="0"><label for="q1b" id="2b"></label>
+                <br/>
+                <input type="radio" name="Q2" class="choice" value="0"><label for="q1c" id="2c"></label>
+                <br/>
+                <input type="radio" name="Q2" class="choice" value="0"><label for="q1d" id="2d"></label>
+                <br/>
+            </ul>
+        </section>
+        <section>
+            <div id="q3">
+                <h4>The Atlantic Oceans name refers to Atlas of Greek mythology</h4>
+            </div>
+            <ul class="answers">
+                <input type="radio" name="Q3" class="choice" value="0"><label for="q1a" id="3a"></label>
+                <br/>
+                <input type="radio" name="Q3" class="choice" value="1"><label for="q1b" id="3b"></label>
+                <br/>
+                <input type="radio" name="Q3" class="choice" value="0"><label for="q1c" id="3c"></label>
+                <br/>
+                <input type="radio" name="Q3" class="choice" value="0"><label for="q1d" id="3d"></label>
+                <br/>
+            </ul>
+        </section>
+        <section>
+            <div id="q4">
+                <h4>Ocean tides are caused by the Earth rotating while the Moon and Suns gravitational pull acts on ocean water.</h4>
+            </div>
+            <ul class="answers">
+                <input type="radio" name="Q4" class="choice" value="0"><label for="q1a" id="4a"></label>
+                <br/>
+                <input type="radio" name="Q4" class="choice" value="1"><label for="q1b" id="4b"></label>
+                <br/>
+                <input type="radio" name="Q4" class="choice" value="0"><label for="q1c" id="4c"></label>
+                <br/>
+                <input type="radio" name="Q4" class="choice" value="0"><label for="q1d" id="4d"></label>
+                <br/>
+            </ul>
+        </section>
+        <section>
+            <div id="q5">
+                <h4>Sound travels 4.3x faster underwater compared to air</h4>
+            </div>
+            <ul class="answers">
+                <input type="radio" name="Q5" class="choice" value="0"><label for="q1a" id="5a"></label>
+                <br/>
+                <input type="radio" name="Q5" class="choice" value="0"><label for="q1b" id="5b"></label>
+                <br/>
+                <input type="radio" name="Q5" class="choice" value="1"><label for="q1c" id="5c"></label>
+                <br/>
+                <input type="radio" name="Q5" class="choice" value="0"><label for="q1d" id="5d"></label>
+                <br/>
+            </ul>
+            </div>
+        </section>
+
+
+    </body>
+
+</html>

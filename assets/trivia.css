@@ -1,1 +1,82 @@
+/*//trivia.css//*/
 
+body {
+    font-family: Verdana;
+    background-image: url("http://www2.padi.com/blog/wp-content/uploads/2017/06/Shark-week-2017.jpg");
+}
+
+
+
+header {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 150%;
+    border-radius: 15px;
+
+
+
+
+}
+
+h1 {
+    color: white;
+    background-color: lightgreen;
+    border-radius: 15px;
+    text-shadow: 2px 2px red;
+
+
+}
+
+
+
+section {
+    color: black;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    background-color: lightgreen;
+    margin: 1%;
+    border-radius: 15px;
+    opacity: 0.85;
+
+}
+
+
+
+.results {
+    font-size: 125%;
+    color: black;
+    background-color: lightgreen;
+    font-family: "Comic Sans MS";
+    border-radius: 15px;
+    opacity: 0.85;
+
+
+}
+
+#correctAnswers {
+    background-color: lightgreen;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#incorrectAnswers {
+    background-color: lightgreen;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#noAnswer {
+    background-color: lightgreen;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#startButton {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    text-shadow: 2px 2px black;
+
+
+
+}

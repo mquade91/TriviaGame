@@ -1,1 +1,68 @@
+Trivia Game
 
+Click to start
+    need a start picture/pagew with a start button
+    countdown function
+    
+    starts game
+    starts timer
+    when time=0 game is over
+
+
+Set of questions
+    each questions has four multiple choice
+        only one is right/three are wrong(values?)
+
+    you choose your answer with a click
+       - you can only click one answer per ?
+            correct answer  = win = 1
+            incorrect answer= loss = 0
+            no answer       = unanswered 
+        need to create array to store userChoiceVal
+            for loop to run 5 times(length of question array)\
+                if index==1
+                    win++
+            
+            must tally when clicked
+                
+
+All my questions are in one array
+
+
+
+
+Quesiton 1:
+What is the largest shark in the world?
+a)*Whale Shark * (18m/60 feet)
+b)Great White Shark
+c)Hammerhard Shark
+d)Mako Shark
+
+Question 2:
+What is the fastest shark in the world?
+a)Whale Shark
+b)Great White Shark
+c)Hammerhard Shark
+d)*Mako Shark* (60MPH)
+
+Question 3:
+What Shark is responsible for the most attacks on humans?
+a)Whale Shark
+b)*Great White Shark*
+c)Hammerhard Shark
+d)Mako Shark
+    
+Question 4:
+How long have sharks been on Earth?
+a) 200,000 years
+b) 22,000,000 years
+c) 2017 years
+d) *420,000,000 years*
+
+
+Question 5:
+What are the chances you will ever be attacked by a shark?
+a) 1 out of 125,000
+b) 1 out of 30,002,000
+c) 1 out of 500
+d) 1 out of 11,500,000**
